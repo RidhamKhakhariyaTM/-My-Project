@@ -1,0 +1,658 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.navbar {
+    background-color: black !important;
+
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.collapse {
+    flex-grow: 0;
+}
+
+.nav-item1 {
+    padding: 0 10px;
+}
+
+.navbar-brand img {
+    width: 80px;
+    color: white;
+}
+
+.nav-item1 a {
+    color: white !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e6e9ef;
+}
+
+.hadderbtn {
+    background-image: linear-gradient(to right, #05338d, #1e6e96);
+    color: white;
+    border-radius: 30px;
+    transition: all .5s linear;
+    border: none;
+}
+
+.hadderbtn:hover {
+    background-color: #05338d;
+    color: white;
+    transform: scale(1.1);
+
+}
+
+.new {
+    background-color: #05338d;
+    font-size: 9px;
+    border-radius: 2px;
+}
+
+.hot {
+    background-color: #1e6e96;
+    font-size: 9px;
+    border-radius: 2px;
+}
+
+.navbar-toggler {
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+}
+
+/* .PosterImg img {
+    animation: ridham 1.5s linear infinite alternate;
+}
+
+@keyframes ridham {
+    0% {
+        transform:
+            rotate(0deg);
+    }
+
+    100% {
+        transform:
+            rotate(-5deg);
+
+    }
+} */
+
+
+.navbar-brand img {
+    filter: invert(10);
+}
+
+.PosterImg {
+    position: relative;
+
+}
+
+.poster_text {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.poster_text h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 0;
+    font-size: 130px;
+    text-transform: uppercase;
+    color: #e3e7ec;
+    -webkit-text-stroke: 4px #1e6e96;
+    color: transparent;
+
+}
+
+.poster_text h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+
+}
+
+.poster_text h2::first-letter {
+    -webkit-text-stroke: 4px #05338d;
+    color: rgb(3, 10, 52);
+    color: transparent;
+
+
+}
+
+.poster_text a {
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.poster_text a:hover {
+    background-color: #1e6e96;
+}
+
+.poster_text p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: white;
+
+}
+
+/* service */
+
+.service_outer p {
+    margin: 0px;
+    color: #ffffff;
+}
+
+.service_outer h2 {
+    margin: 0px;
+    color: #1e6e96;
+}
+
+.service {
+    width: 100px;
+    filter: invert(10);
+}
+
+.login {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.login:hover {
+    background-color: #1e6e96;
+}
+
+/* featurstic */
+
+.Feature img {
+    transition: all .25s ease-out;
+}
+
+.Feature2 img {
+    transition: all .25s ease-out;
+
+}
+
+.Feature:hover img {
+    transform: rotate(10deg) scale(1.1);
+    filter: drop-shadow(10px 7px 5px);
+}
+
+.Feature2:hover img {
+    transform: rotate(-10deg) scale(1.1);
+    filter: drop-shadow(10px 7px 5px);
+}
+
+/* product */
+.product_outer {
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    border-radius: 50px;
+
+}
+
+.heading1 {
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.heading1::after {
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-image: linear-gradient(to right, white, black);
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    margin: 0 7px;
+    transition: all .25s ease-out;
+}
+
+.heading1::before {
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-image: linear-gradient(to right, black, white);
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(0, -50%);
+    margin: 0 7px;
+    transition: all .25s ease-out;
+
+}
+
+.heading1:hover::after {
+    top: 100%;
+    left: 50%;
+}
+
+.heading1:hover::before {
+    top: 0;
+    right: 50%;
+}
+
+.heading2 {
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    color: black;
+
+}
+
+.heading2::after {
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.044));
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    margin: 0 7px;
+    transition: all .25s ease-out;
+}
+
+.heading2::before {
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.044), black);
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(0, -50%);
+    margin: 0 7px;
+    transition: all .25s ease-out;
+
+}
+
+.heading2:hover::after {
+    top: 100%;
+    left: 50%;
+}
+
+.heading2:hover::before {
+    top: 0;
+    right: 50%;
+}
+
+.product {
+    background-color: rgba(0, 0, 0, 0.951);
+    border-radius: 10px;
+}
+
+.product img {
+    transition: all .2s ease-in;
+}
+
+.product:hover img {
+    transform: rotate(-20deg);
+    filter: drop-shadow(7px 7px 8px);
+}
+
+.btnclr {
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: none;
+
+}
+
+.product_text .btnclr:hover {
+    background-color: #0b425d;
+    color: white;
+
+}
+
+.product_text h4 {
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    background-clip: text;
+    color: transparent;
+}
+
+.product_text span {
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(149, 146, 146);
+
+}
+
+.product_text strong {
+    font-size: 19px;
+    color:white;
+
+}
+.product_text p{
+    color: white;
+}
+.lip p{
+    color: white;
+}
+.lip::marker{
+    color:rgb(54, 107, 128);
+}
+/* branded */
+
+
+
+.brand_Inner img {
+    transition: all .2s ease-in;
+}
+
+.brotate:hover img {
+    transform: scale(1.1) rotate(-10deg);
+    filter: drop-shadow(-15px 7px 5px);
+}
+
+.brotate1:hover img {
+    transform: scale(1.1) rotate(10deg);
+    filter: drop-shadow(-15px 7px 5px);
+}
+
+
+.product ul li {
+    margin-bottom: 10px;
+}
+
+.product .btnclr:hover {
+    background-color: #0b425d;
+    color: white;
+
+}
+
+.product h3 {
+    color: #1e6e96;
+}
+
+.product ul li::marker {
+    color: #1e6e96;
+}
+
+.product ul li p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -moz-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product1 h3 {
+    background-image: linear-gradient(90deg, #05338d, #ffffff);
+    background-clip: text;
+    color: transparent;
+}
+.product1 img {
+    transition: all .2s ease-in;
+}
+
+.product1:hover img {
+    transform: rotate(-20deg);
+    filter: drop-shadow(7px 7px 8px);
+}
+
+.image {
+    background-color: #1e6e96;
+    border-radius: 100%;
+    width: 180px;
+    margin: 20px auto;
+}
+
+a.btnclr:hover {
+    background-color: #0b425d;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+.product1 {
+    background-color: rgba(0, 0, 0, 0.951);
+    border-radius: 10px;
+}
+
+
+/* review */
+
+.reviweheading {
+    color: #1e6e96;
+}
+
+.reviewrcon {
+    color: white;
+}
+
+/* footer */
+
+
+.footer_logo img {
+    width: 100px;
+    filter: invert(10);
+}
+
+.f_hover ul li a {
+    transition: all .2s linear;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: white !important;
+
+}
+
+.f_hover h5{
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    background-clip: text;
+    color: transparent;
+}
+
+.footeryear {
+    background-image: linear-gradient(to right, #05338d, #ffffff);
+    background-clip: text;
+    color: transparent;
+}
+
+.f_hover ul li a:hover {
+    transform: translate(10px, 0);
+    color: #1e6e96 !important;
+}
+
+.footerlast p {
+    color: white;
+}
+
+.footerlast img {
+    filter: invert(10);
+}
+
+
+
+
+/* MEDIA */
+
+@media(max-width:1199px) {
+    .poster_text h2 {
+        font-size: 100px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .poster_text a {
+        padding: 10px 32px;
+        margin-top: 4px;
+        text-transform: uppercase;
+        font-size: 12px;
+        transition: all .2s linear;
+
+    }
+
+    .poster_text h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+
+    }
+
+}
+
+@media(max-width:991px) {
+    .poster_text h2 {
+        font-size: 80px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .poster_text a {
+        padding: 8px 28px;
+        margin-top: 4px;
+        text-transform: uppercase;
+        font-size: 12px;
+        transition: all .2s linear;
+    }
+
+    .poster_text p {
+        font-size: 14px;
+        margin-bottom: 15px;
+
+    }
+
+    .heading2::after {
+        width: 170px
+    }
+
+    .heading2::before {
+        width: 170px
+    }
+
+    .heading1::after {
+        width: 170px
+    }
+
+    .heading1::before {
+        width: 170px
+    }
+}
+
+@media(max-width:767px) {
+    .poster_text h2 {
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: 600;
+
+    }
+
+    .poster_text a {
+        padding: 7px 25px;
+        text-transform: uppercase;
+        font-size: 12px;
+        transition: all .2s linear;
+        margin-top: -50px;
+    }
+
+    .poster_text p {
+        font-size: 14px;
+    }
+
+    .poster_text h4 {
+        font-size: 15px;
+        font-weight: 600;
+
+
+    }
+
+    @media(max-width:667px) {
+        .poster_text {
+            position: static;
+            display: block;
+            text-align: center;
+        }
+
+        .poster_text a {
+            margin-bottom: 20px;
+        }
+
+        .poster_text h2 {
+            font-size: 80px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .heading2::after {
+            width: 0;
+        }
+
+        .heading2::before {
+            width: 0;
+        }
+
+        .heading1::after {
+            width: 0;
+        }
+
+        .heading1::before {
+            width: 0;
+        }
+    }
+}
+
+@media(max-width:575px) {
+
+    .heading1::after {
+        width: 0;
+    }
+
+    .heading1::before {
+        width: 0;
+    }
+
+    .heading2::after {
+        width: 0;
+    }
+
+    .heading2::before {
+        width: 0;
+    }
+
+    .poster_text a {
+        margin-bottom: 20px;
+    }
+}
